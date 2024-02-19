@@ -1,0 +1,7 @@
+name: RealEnvSync
+version: '${version}'
+main: io.github.antonmenov.realenvsync.RealEnvSync
+api-version: '1.20'
+author: Anton Menov
+description: Sync Minecraft environment with real life
+website: https://github.com/AntonMenov/mc-real-env-sync

@@ -1,0 +1,16 @@
+package io.github.antonmenov.realenvsync;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class RealEnvSync extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        // Plugin startup logic
+    }
+
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
+    }
+}
