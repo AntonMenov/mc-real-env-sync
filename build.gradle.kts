@@ -24,7 +24,12 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter")
 
-    compileOnly("org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT")
+    compileOnly("org.checkerframework:checker-qual:3.42.0")
+    testCompileOnly("org.checkerframework:checker-qual:3.42.0")
+
+    compileOnly("org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT") {
+        exclude("org.checkerframework", "checker-qual")
+    }
 }
 
 val targetJavaVersion = 17
