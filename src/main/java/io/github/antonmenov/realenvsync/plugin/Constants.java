@@ -1,4 +1,4 @@
-package io.github.antonmenov.realenvsync.domain;
+package io.github.antonmenov.realenvsync.plugin;
 
 import org.checkerframework.checker.nullness.qual.NonNull;
 

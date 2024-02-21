@@ -5,3 +5,7 @@ api-version: '1.20'
 author: Anton Menov
 description: Sync Minecraft environment with real life
 website: https://github.com/AntonMenov/mc-real-env-sync
+commands:
+  realenvsync:
+    description: Sync Minecraft time or dateime with real life
+    usage: /<command> <time|datetime> <time|datetime|now>
