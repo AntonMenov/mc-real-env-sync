@@ -26,9 +26,10 @@ dependencies {
 
     compileOnly("org.checkerframework:checker-qual:3.42.0")
     testCompileOnly("org.checkerframework:checker-qual:3.42.0")
-
+    compileOnly("com.google.guava:guava:33.0.0-jre")
     compileOnly("org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT") {
         exclude("org.checkerframework", "checker-qual")
+        exclude("com.google.guava", "guava")
     }
 }
 
