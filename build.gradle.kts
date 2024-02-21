@@ -24,6 +24,8 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter")
 
+    compileOnly("org.jetbrains:annotations:24.1.0")
+
     compileOnly("org.checkerframework:checker-qual:3.42.0")
     testCompileOnly("org.checkerframework:checker-qual:3.42.0")
     compileOnly("com.google.guava:guava:33.0.0-jre")
